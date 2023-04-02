@@ -54,7 +54,7 @@ header {
     font-size: 18px;
     line-height: 21px;
     Line-height: 1.17;
-    align: Left;
+    box-align: Left;
     vertical-align: Center;
     letter-spacing: 0.03;
     font: weigt-800;

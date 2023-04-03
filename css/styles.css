@@ -60,7 +60,7 @@ header {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    align: left;
+    box-align: left;
     vertical-align: top;
     letter-spacing: 0.02em;
 }
@@ -70,7 +70,7 @@ header {
     font-style: ExtraBold;
     font-size: 18px;
     line-height: 1.17;
-    align: left;
+    box-align: left;
     vertical-align: Center;
     letter-spacing: 0.03;
     font-weight: 800;
@@ -218,7 +218,7 @@ header {
     font-size: 18px;
     line-height: 21px;
     Line-height: 1.17;
-    align: left;
+    box-align: left;
     vertical-align: Center;
     letter-spacing: 0.03em;
     font-weight: 800;

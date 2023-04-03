@@ -58,10 +58,10 @@ header {
     font-style: medium;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.28;
+    line-height: 1.5;
     align: left;
     vertical-align: top;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 .web-color {
@@ -101,6 +101,8 @@ header {
 
 .contakts-item:hover {
     color: var(--ocean);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .contakts-item:focus {
@@ -127,7 +129,7 @@ header {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 
 }
 
@@ -137,7 +139,7 @@ header {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
@@ -162,13 +164,15 @@ header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
-.principles-item {
+.principles-list {
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
+
+
 
 /* Our work */
 .work-item {
@@ -177,6 +181,7 @@ header {
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
+    ;
     text-transform: capitalize;
 }
 
@@ -192,20 +197,26 @@ header {
 .team-item {
     color: var(--navy-blue);
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 
 }
 
 .team-position {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 .people-names {
     color: var(--navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 /* Footer */

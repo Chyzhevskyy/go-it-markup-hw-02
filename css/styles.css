@@ -23,6 +23,14 @@ body {
     background-color: var(--white);
 }
 
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
 /* headder */
 header {
     background-color: var(--cornflower);
@@ -49,7 +57,7 @@ header {
     font-family: Roboto, sans-serif;
     font-style: medium;
     font-size: 16px;
-    line-height: 24px;
+    font-weight: 500;
     line-height: 1.28;
     align: left;
     vertical-align: top;
@@ -60,12 +68,11 @@ header {
     font-family: Raleway;
     font-style: ExtraBold;
     font-size: 18px;
-    line-height: 21px;
-    Line-height: 1.17;
+    line-height: 1.17;
     align: left;
     vertical-align: Center;
     letter-spacing: 0.03;
-    font: weigt-800;
+    font-weight: 800;
 }
 
 .nav-button {
@@ -102,7 +109,7 @@ header {
 
 .contakts-item {
     color: var(--slate);
-    ;
+
 }
 
 .list {
@@ -112,14 +119,15 @@ header {
 /* hero saction */
 .hero-item {
     background-color: var(--navy-blue);
-    font-size: 56px;
-    line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02;
 }
 
 .hero-title {
     color: #ffffff;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02;
 
 }
 
@@ -168,13 +176,17 @@ header {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
 /*  Team*/
 .team {
     background-color: var(--cloud);
+}
+
+.color-team-item {
+    background-color: var(--white);
 }
 
 .team-item {
@@ -199,15 +211,15 @@ header {
 /* Footer */
 .web-color {
     color: var(--iris);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: ExtraBold;
     font-size: 18px;
     line-height: 21px;
     Line-height: 1.17;
     align: left;
     vertical-align: Center;
-    letter-spacing: 0.03;
-    font: weigt-800;
+    letter-spacing: 0.03em;
+    font-weight: 800;
     text-transform: uppercase;
 }
 

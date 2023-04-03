@@ -86,12 +86,13 @@ header {
 /* contakts */
 .contakts {
     font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .contakts-item:hover {
     color: var(--ocean);
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+
 }
 
 .contakts-item:focus {
